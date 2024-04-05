@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: golang-5424-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/golang-5424-gitops
